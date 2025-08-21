@@ -1,0 +1,98 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  text-align: center;
+}
+
+/* Top bar */
+.topbar {
+  width: 100%;
+  padding: 15px;
+  background: #222;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* Home page layout */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  height: 90vh;
+}
+
+.home-button {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+
+.home-button:hover {
+  transform: scale(1.1);
+}
+
+.home-button img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-button span {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0,0,0,0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Games & Videos page */
+.page-container {
+  padding: 40px;
+}
+
+.page-container h1 {
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.item-list li {
+  background: #222;
+  margin: 10px auto;
+  padding: 15px;
+  max-width: 500px;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.item-list li:hover {
+  background: #333;
+}
