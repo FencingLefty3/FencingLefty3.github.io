@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-50 antialiased">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - FencingLefty3 Studios</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-full flex font-sans">
+  <!-- Sidebar -->
+  <aside class="w-64 bg-white shadow-lg h-screen p-6 space-y-6">
+    <a href="index.html" class="flex items-center gap-2">
+      <img src="images/logo.png" class="h-10 w-10" alt="Logo">
+      <span class="font-bold text-lg">Admin Panel</span>
+    </a>
+    <nav class="space-y-4">
+      <a href="#games" class="block text-gray-700 hover:text-blue-600">Manage Games</a>
+      <a href="#videos" class="block text-gray-700 hover:text-blue-600">Manage Videos</a>
+      <a href="#settings" class="block text-gray-700 hover:text-blue-600">Site Settings</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-8 overflow-y-auto">
+    <h1 class="text-3xl font-bold mb-8">Dashboard</h1>
+
+    <!-- Games Section -->
+    <section id="games" class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">Games</h2>
+      <table class="w-full bg-white shadow rounded-lg overflow-hidden">
+        <thead class="bg-gray-200 text-left">
+          <tr>
+            <th class="p-3">Title</th>
+            <th class="p-3">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-t">
+            <td class="p-3">Game 1</td>
+            <td class="p-3">Short description here.</td>
+          </tr>
+        </tbody>
+      </table>
+      <form class="mt-4 space-y-3">
+        <input type="text" placeholder="Game Title" class="border p-2 rounded w-full">
+        <textarea placeholder="Description" class="border p-2 rounded w-full"></textarea>
+        <button type="button" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Add Game</button>
+      </form>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="mb-12">
+      <h2 class="text-2xl font-semibold mb-4">Videos</h2>
+      <table class="w-full bg-white shadow rounded-lg overflow-hidden">
+        <thead class="bg-gray-200 text-left">
+          <tr>
+            <th class="p-3">Title</th>
+            <th class="p-3">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="border-t">
+            <td class="p-3">Video 1</td>
+            <td class="p-3">Short description here.</td>
+          </tr>
+        </tbody>
+      </table>
+      <form class="mt-4 space-y-3">
+        <input type="text" placeholder="Video Title" class="border p-2 rounded w-full">
+        <textarea placeholder="Description" class="border p-2 rounded w-full"></textarea>
+        <button type="button" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Add Video</button>
+      </form>
+    </section>
+
+    <!-- Settings -->
+    <section id="settings">
+      <h2 class="text-2xl font-semibold mb-4">Site Settings</h2>
+      <form class="space-y-3">
+        <input type="text" placeholder="Site Title" class="border p-2 rounded w-full" value="FencingLefty3 Studios">
+        <input type="text" placeholder="Footer Text" class="border p-2 rounded w-full" value="© 2025 FencingLefty3 Studios. All rights reserved.">
+        <button type="button" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Save Changes</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
