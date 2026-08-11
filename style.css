@@ -1,0 +1,63 @@
+* {
+  font-family: "Public Sans Web", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #ffffff93;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('assets/bg.png');
+  background-size: cover;
+  background-color: #f9fafb;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: #ffffff21;
+  backdrop-filter: blur(10px);        
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151;
+  text-decoration: none;
+}
+
+.h2:hover {
+  color: #2563eb;
+
+}
+
+section {
+  margin: 1.5rem 4rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  background: #4177a6b0;
+  backdrop-filter: blur(10px);        
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  position: fixed;
+    bottom: 0;
+    width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  background: #ffffff21;
+  backdrop-filter: blur(10px);        
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
