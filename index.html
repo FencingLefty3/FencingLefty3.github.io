@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="assets/logo.png" type="image/png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>FencingLefty3</title>
 </head>
@@ -24,11 +26,16 @@
 <body>
 <main>
 
-  <section>
-    <h1 id="welcome" class="h1">Hi!</h1> <h2 class="h1">I'm FencingLefty3,</h2>
-    <p class="p">This is my site for showcasing various projects and skills of mine. I'm a self-taught developer and I like making games, websites, and other projects. I also enjoy film and editing.</p>
-  </section><section style="margin-top: 2rem;">
-    <h1 style="text-align: center;margin-bottom: 0.75rem;" class="h1">Skills</h1>
+  <section class="hero">
+    <h1 id="welcome" class="h1">Hi!</h1> <h2 class="h1"></h2>
+    <p class="p">I'm FencingLefty3, This is my site for showcasing various projects and skills of mine. I'm a self-taught developer and I like making games, websites, and other projects. I also enjoy film and editing.</p>
+  <a href="dev.html">
+        <span style="color: var(--color);font-weight: 700;" >Projects</span>
+        <i class="fa fa-circle-arrow-right" style=" color: var(--secondary-color);"></i>
+    </a>
+  </section>
+  <section style="background-color: var(--seccondary-bg-color);">
+    <h1 style="text-align: center;margin-bottom: 0.75rem;color: var(--primary-color);" class="h1">Skills</h1>
     <div class="skill-section">
       <div class="skill-item">
         <i class="devicon-html5-plain colored" style="font-size: 1.2rem;"></i>
@@ -48,13 +55,21 @@
         <p class="p">Supabase</p>
       </div>
     </div>
-  </section>
+  </section><section> 
+    <div class="skill-section">
+      <a href="dev.html" class="skill-item">
+       <p class="p">Projects</p>
+      </a>
+    </div>
+    </section>
   </main> 
 </body>
 <footer>
     <div>
         © 2026 FencingLefty3.
     </div>
+    <a href="https://github.com/fencinglefty3" class="fa fa-github"></a>
+    </a>
 </footer>
 </html>
 <script src="script.js"></script>
