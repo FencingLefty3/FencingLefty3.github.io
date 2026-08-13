@@ -20,11 +20,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   
-  background-color: var(--bg-color);
-}
-
-i:hover {
-   color: #1b4a58;
+  background-color: white;
 }
 
 nav {
@@ -73,6 +69,15 @@ a:hover {
   color: var(--color);
 }
 
+.fa-circle-arrow-right:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-color);
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.25rem;
+  color: var(--color);
+}
+
+
 a:visited {
   color: var(--color);
 }
@@ -91,11 +96,16 @@ section.hero {
   -webkit-backdrop-filter: blur(10px);
 }
 
+.skill-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4em;
+  height: 4rem;
+  overflow: hidden;
+}
+
 .skill-item {
-  background: var(--primary-color);
-  border-radius: 5rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -106,11 +116,7 @@ section.hero {
   padding: 0.5rem;
 }
 
-.skill-item:hover {
-  background: var(--color2);
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transform: scale(1.1); 
-}
+
 
 .skill-section {
   display: flex;
