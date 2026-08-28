@@ -7,7 +7,7 @@ I like making things and need a place to show them off! So I made this personal 
 
 ## Screenshots
 
-![Home Page](https://github.com/FencingLefty3/FencingLefty3.github.io/blob/main/Screenshot11.png?raw=true)
+![Home Page](https://github.com/FencingLefty3/FencingLefty3.github.io/blob/main/Screenshot30.png?raw=true)
 ![Dev Page](https://github.com/FencingLefty3/FencingLefty3.github.io/blob/main/Screenshot11.png?raw=true)
 
 ## Live Site
