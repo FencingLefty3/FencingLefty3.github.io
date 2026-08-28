@@ -3,7 +3,9 @@
 
 My personal site with some of my projects.
 
-I like making things and need a place to show them off! So I made this personal site with some theming inspired by NASA. This is a site to show off my growing portfolio of projects, skills, and programing languages. I made this website using my knowledge of Github (pages), html and css.
+I like making things and need a place to show them off! So I made this personal site with some theming inspired by NASA. This is a site to show off my growing portfolio of projects, skills, and programing languages. I made this website using my knowledge of GitHub (pages), html and CSS.
+
+The site has a dynamic greeting written in JS changing based on the time of day.
 
 ## Screenshots
 
